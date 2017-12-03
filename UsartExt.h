@@ -1,5 +1,5 @@
 /*  
- * USART Modified Library for PIC18
+ * USART Extra Library for PIC18
  * File:   UsartMod.h
  * Author: Daniel Marquina
  *
@@ -11,8 +11,8 @@
  * Copyright (c) 2017 Daniel Marquina 
  * 
  */
-#ifndef USARTMOD_H
-#define USARTMOD_H
+#ifndef USARTEXT_H
+#define USARTEXT_H
 
 #ifdef	__cplusplus
 extern "C" {
@@ -32,4 +32,4 @@ void sendStrUSART( char *data, int length);
 }
 #endif
 
-#endif	/* USARTMOD_H */
+#endif	/* USARTEXT_H */

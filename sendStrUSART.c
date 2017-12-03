@@ -8,7 +8,7 @@
  */
 
 #include <p18cxxx.h>
-#include "UsartMod.h"
+#include "UsartExt.h"
 
 /* Send a string through USART
  *  Sends an array of chars (string) of defined size.
